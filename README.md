@@ -1,6 +1,6 @@
 # AndFeathers::GzippedTarball
 
-Works with [and-feathers](http://github.com/bcobb/and_feathers) to turn in-memory archives into gzipped tarballs.
+Works with [and_feathers](http://github.com/bcobb/and_feathers) to turn in-memory archives into gzipped tarballs.
 
 ## Installation
 
