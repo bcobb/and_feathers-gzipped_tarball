@@ -21,7 +21,7 @@ Or install it yourself as:
 ### Writing a tarball to disk
 
 ```ruby
-reqiure 'and_feathers'
+require 'and_feathers'
 require 'and_feathers/gzipped_tarball'
 
 # This is a simple archive
@@ -37,13 +37,12 @@ end
 ### Tar an existing directory, plus a few changes/additions
 
 ```ruby
-reqiure 'and_feathers'
+require 'and_feathers'
 require 'and_feathers/gzipped_tarball'
 
 archive = AndFeathers.from_path('spec') do |spec|
   spec.file('end_to_end_spec.rb') { '# whoops' }
   spec.file('spec_helper.rb') { '# everyone needs one of these' }
-  spec.file('and_feathers/zip
 end
 
 File.open('spec.zip', 'w+') do |f|
