@@ -6,6 +6,6 @@ module AndFeathers
     # and_feathers-gzipped_tarball at this point is a change to the protocol
     # expected of the argument passed to +AndFeathers::Archive#to_io+
     #
-    VERSION = "1.0.0"
+    VERSION = "1.0.0.pre"
   end
 end
